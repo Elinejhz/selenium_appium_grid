@@ -11,8 +11,11 @@ appium -p 4447 -bp 4449 --nodeconfig C:\softtest\selenium-grid-master\appium-gri
 
 for t in thread_list:
     t.setDaemon(True) # 设置为守护线程，不会因主线程结束而中断
+    
     t.start()
+    
 for t in thread_list:
+
     t.join() # 子线程全部加入，主线程等所有子线程运行完毕
 
 参考：https://cloud.tencent.com/developer/article/1738406?from=15425
