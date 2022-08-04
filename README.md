@@ -1,5 +1,4 @@
-# selenium_appium_grid
-For study use only
+# selenium_appium_grid（For study use only）
 
 1、win10下开启多个cmd命令行，如分别开启2个，启动2个node，注意：需要加上-bp参数，以便开启多端口进行通信，如下，
 
